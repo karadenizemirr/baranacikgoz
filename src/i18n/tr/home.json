@@ -2,16 +2,37 @@
     "base": {
         "button": {
             "contact": "İletişime Geçin",
-            "video": "Videoyu İzle"
+            "video": "Videoyu İzle",
+            "send": "Gönder",
+            "more_than":"Daha Fazla Bilgi Alın",
+            "play":"Videoyu Oynat"
         },
         "header": {
             "text": "Şarj istasyonlarına ulaşmanın premium yolu.",
-            "comment": "Şarj İstasyonlarınızı Yönetirken, Kullanıcılarınıza Premium bir Mobil Deneyimm Sunun",
+            "comment": "Şarj İstasyonlarınızı Yönetirken, Kullanıcılarınıza Premium bir Mobil Deneyim Sunun",
             "description": "MaviCharge elektrikli araç şarj istasyonları için özel olarak tasarlanmış bir SaaS çözümüdür. Bu platform,şarj istasyonlarınzı kolayca entegre edip yönetmeniz için geniş kapsamlı bir yönetim paneli sağlamanın yanı sıra, elektrikli araç kullanıcıları işletmenize özel bir mobil uygulama hizmetide sunar."
         },
         "contact": {
             "phone": "Telefon Nu:",
-            "email": "Mail Adresi:"
+            "email": "Mail Adresi:",
+            "address":"Adres",
+            "page": {
+                "title": "İletişim",
+                "head_desc": "Bizimle İletişime Geçin",
+                "contact_card": {
+                    "title":"Bizimle Görüşün",
+                    "description": "Adreslerimiz üzerinden bizlere ulaşabilirsiniz."
+                },
+                "contact_form": {
+                    "name":"Adınız",
+                    "surname": "Soyadınız",
+                    "email": "Mail Adresiniz",
+                    "phone":"Telefon Numaranız",
+                    "message":"Mesajınız",
+                    "title": "Mesaj Gönderin",
+                    "description": "Mesajınızı bize ulaştırın.Sizlere en kısa süre içerisinde dönüş sağlayalım."
+                }
+            }
         },
         "menu": {
             "home": "Ana Sayfa",
@@ -28,6 +49,80 @@
                 "head":"Mobil Uygulama",
                 "title": "Harita Üzerinde Şarj İstasyonlarını Görüntüleme",
                 "description": "Kullanıcılar, harita üzerinden şarj istasyonlarına kolayca erişim sağlar."
+            }
+        },
+        "video":{
+            "title":"Bizi Daha Yakından Tanıyın"
+        },
+        "pages": {
+            "mobile": {
+                "title": "Mobil Uygulama",
+                "description": "Mobil Uygulamamızla Tanışın",
+                "data":{
+                    "item1": {
+                        "title": "Harita Üzerinde Şarj İstasyonlarını Görüntüleme",
+                        "description": "Kullanıcılar, harita üzerinden şarj istasyonlarına kolayca erişim sağlar"
+                    },
+                    "item2": {
+                        "title":"Filtreleme Özelliği",
+                        "description": "Kullanıcılar, ihtiyaçlarına göre AC veya DC şarj istasyonlarını filtrer. İstediği özellikteki istasyonları hızlıca bulur"
+                    },
+                    "item3": {
+                        "title":"Müsaitlik Durumu Kontrolü",
+                        "description": "Kullanıcılar, istasyona tıklayarak, o anki müsaitlik durumuna göz atar. Boş veya dolu istasyonları anında belirler."
+                    },
+                    "item4": {
+                        "title":"Şarj Başlatma",
+                        "description":"Kullanıcılar, konnektörü aracına bağladığında, mobil uygulama üzerinden şarj işlemine kolayca başlayabilir."
+                    },
+                    "item5": {
+                        "title":"Ödeme",
+                        "description": "Kullanıcılar, işletmenizin iş kurallarına göre, gerek şarjdan önce gerek şarj işlemi tamamlandığında, uygulama üzerinden hızlı ve güvenli bir şekilde ödeme yapar."
+                    },
+                    "item6": {
+                        "title":"Cüzdan Özelliği",
+                        "description": "Kullanıcılar, uygulama içi cüzdanlarına ödeme yaparak, şarj süreçlerini kolaylaştırır."
+                    },
+                    "item7": {
+                        "title": "Şarj Geçmişi",
+                        "description": "Kullanıcılar, geçmiş şarj operasyonlarını tarihsel sıralamayla harita görüntüler ve işlemin gerçekleştiği lokasyonu harita üzerinde görür."
+                    }
+
+                }
+            },
+            "admin": {
+                "title": "Yönetici Paneli",
+                "description": "Yönetici Panelimizle Tanışın",
+                "data": {
+                    "item1": {
+                        "title": "OCPP Şarj İstasyonu Bağlantı ve Yönetimi",
+                        "description": "OCPP protokolüne uyumlu şarj istasyonlarınızı kolayca sistemimize bağlayın ve tüm istasyonlarınızı tek bir merkezden yönetin."
+                    },
+                    "item2": {
+                        "title":"Etkin İletişim ve Veri Yönetimi",
+                        "description":"Şarj istasyonunuzdan, gelen ve giden tüm veriler saklanır ve işlenir. En güncel bilgilere anında erişin."
+                    },
+                    "item3": {
+                        "title": "Kapsamlı Yönetim",
+                        "description": "İstasyonlarınıza dair her şeyi yönetim paneli üzerinden kolayca yönetebilirsiniz. İstasyon ekleme, çıkarma, durum kontrolü gibi birçok özellik parmaklarınızın ucunda."
+                    },
+                    "item4": {
+                        "title":"Harita Üzerinde İstasyon Görüntüleme",
+                        "description": "Tüm şarj istasyonlarınızı coğrafi olarak harita üzerinde görüntüleyin. Lokasyon bazlı analizler yapın."
+                    },
+                    "item5":{
+                        "title": "Müşteri Yönetimi",
+                        "description": "Müşteri bilgilerini detaylı olarak görüntüleyin. Kullanıcı hareketlerini takip edin ve işletmeniz için en değerli verilere erişin"
+                    },
+                    "item6": {
+                        "title": "Gruplandırma ve Fiyatlandırma",
+                        "description":"Şarj istasyonlarınızı gruplara ayırarak, grup özelinde fiyatlandırmalar yapın. Farklı kampanya ve promosyonları kolaylıkla yönetin."
+                    },
+                    "item7": {
+                        "title": "Anlık ve Geçmiş Şarj Bilgisi",
+                        "description":"Gerçekleşen tüm şarj işlemlerini anlık olarak takip edin. Geçmiş verilere ulaşarak tarih, kullanıcı, fiyat gibi filtrelerle detaylı analizler yapın."
+                    }
+                }
             }
         }
     }

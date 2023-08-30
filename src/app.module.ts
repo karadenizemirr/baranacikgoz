@@ -8,6 +8,8 @@ import { JwtService } from './services/custom/jwt.service';
 import { APP_INTERCEPTOR } from '@nestjs/core';
 import { AuthInterceptors } from './auth/auth.interceptors';
 import { ContactModule } from './admin/contact/contact.module';
+import { LanguageInterceptors } from './services/custom/language.interceptors';
+import { NewsletterModule } from './admin/newsletter/newsletter.module';
 
 @Global()
 @Module({
@@ -26,7 +28,8 @@ import { ContactModule } from './admin/contact/contact.module';
       ]
     }),
     UserModule,
-    ContactModule
+    ContactModule,
+    NewsletterModule
   ],
   controllers: [AppController],
   providers: [
@@ -35,6 +38,10 @@ import { ContactModule } from './admin/contact/contact.module';
     {
       provide: APP_INTERCEPTOR,
       useClass:AuthInterceptors
+    },
+    {
+      provide: APP_INTERCEPTOR,
+      useClass:LanguageInterceptors
     }
   ],
   exports: [JwtService]

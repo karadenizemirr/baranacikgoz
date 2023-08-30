@@ -1,3 +1,5 @@
+import { Contact } from "src/admin/contact/contact.model";
+import { Newsletter } from "src/admin/newsletter/newsletter.model";
 import { User } from "src/admin/user/user.model";
 import { DataSource } from "typeorm";
 
@@ -10,7 +12,7 @@ export const AppDataSource = new DataSource({
     database: "baranacikgoz",
     synchronize: true,
     logging: true,
-    entities: [User],
+    entities: [User, Contact, Newsletter],
     subscribers: [],
     migrations: [],
 

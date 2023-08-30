@@ -8,11 +8,26 @@ export class AppController {
 
   @Get()
   @Render('index')
-  getHello(@I18n() i18n: I18nContext) {
+  getHello() {
     
     return {
-      title: 'Anasafya',
-      translate: i18n.t('home.base')
+      title: 'Anasafya'
+    }
+  }
+
+  @Get('mobile')
+  @Render('pages/mobile')
+  async get_mobile(){
+    return {
+      title: "Mobil Uygulama"
+    }
+  }
+
+  @Get('admin')
+  @Render('pages/admin')
+  async get_amin(){
+    return {
+      title: 'Yönetici Paneli'
     }
   }
 
