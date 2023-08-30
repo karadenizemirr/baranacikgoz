@@ -1,0 +1,34 @@
+{
+    "base": {
+        "button": {
+            "contact": "İletişime Geçin",
+            "video": "Videoyu İzle"
+        },
+        "header": {
+            "text": "Şarj istasyonlarına ulaşmanın premium yolu.",
+            "comment": "Şarj İstasyonlarınızı Yönetirken, Kullanıcılarınıza Premium bir Mobil Deneyimm Sunun",
+            "description": "MaviCharge elektrikli araç şarj istasyonları için özel olarak tasarlanmış bir SaaS çözümüdür. Bu platform,şarj istasyonlarınzı kolayca entegre edip yönetmeniz için geniş kapsamlı bir yönetim paneli sağlamanın yanı sıra, elektrikli araç kullanıcıları işletmenize özel bir mobil uygulama hizmetide sunar."
+        },
+        "contact": {
+            "phone": "Telefon Nu:",
+            "email": "Mail Adresi:"
+        },
+        "menu": {
+            "home": "Ana Sayfa",
+            "admin_panel": "Yönetici Paneli",
+            "mobile_app": "Mobil Uygulama"
+        },
+        "services": {
+            "homeService1": {
+                "head":"Yönetim Panel",
+                "title": "OCPP Şarj İstasyonu Bağlantı ve Yönetimi",
+                "description": "OCPP protokolüne uyumlu şarj istasyonlarınızı kolayca sistemimize bağlayın ve tüm istasyonlarınızı tek bir merkezden yönetin."
+            },
+            "homeService2": {
+                "head":"Mobil Uygulama",
+                "title": "Harita Üzerinde Şarj İstasyonlarını Görüntüleme",
+                "description": "Kullanıcılar, harita üzerinden şarj istasyonlarına kolayca erişim sağlar."
+            }
+        }
+    }
+}
