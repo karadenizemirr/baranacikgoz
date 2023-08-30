@@ -4,6 +4,7 @@ import { AppModule } from './app.module';
 import { join } from 'path';
 import { AppDataSource } from './services/custom/mysql.service';
 import secureSession from '@fastify/secure-session'
+import { ErrorService } from './services/custom/error.service';
 
 async function bootstrap() {
   const app = await NestFactory.create<NestFastifyApplication>(
@@ -35,6 +36,7 @@ async function bootstrap() {
       maxAge: 1000 * 60 * 60 // 7 days
     }
   });
+  app.useGlobalFilters(new ErrorService())
   await app.listen(process.env.PORT ?? 3000, process.env.HOST || '0.0.0.0');
 }
 bootstrap();

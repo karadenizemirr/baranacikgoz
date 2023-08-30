@@ -1,6 +1,7 @@
-import { Body, Controller, Get, Post, Render, Res } from "@nestjs/common";
+import { Body, Controller, Get, Post, Render, Res, UseGuards } from "@nestjs/common";
 import { AppDataSource } from "src/services/custom/mysql.service";
 import { Newsletter } from "./newsletter.model";
+import { AuthGuard } from "src/auth/auth.guard";
 
 @Controller('newsletter')
 export class NewsletterController {
@@ -24,6 +25,7 @@ export class NewsletterController {
     }
 
     @Get()
+    @UseGuards(AuthGuard) 
     @Render('pages/admin/newsletter')
     async get_newsletter(){
         const newsletter = await this.newsletterRepository.find(

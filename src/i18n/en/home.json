@@ -1,7 +1,129 @@
 {
     "base": {
         "button": {
-            "contact": "Contact"
-        }
+            "contact": "contact",
+            "video": "Watch Video",
+            "send": "send",
+            "more_than": "Learn More",
+            "play": "Play Video"
+        },
+        "header": {
+            "text": "Premium way to reach charging stations.",
+            "comment": "Give Your Users a Premium Mobile Experience While Managing Your Charging Stations",
+            "description": "MaviCharge is a SaaS solution designed specifically for electric vehicle charging stations. The platform provides a comprehensive management dashboard to easily integrate and manage your charging stations, as well as a mobile app service tailored to your electric vehicle users business."
+        },
+        "contact": {
+            "phone": "Phone Nu:",
+            "email": "Mail Address:",
+            "address": "Address",
+            "page": {
+                "title": "contact",
+                "head_desc": "Contact Us",
+                "contact_card": {
+                    "title": "Contact Us",
+                    "description": "You can contact us via our addresses."
+                },
+                "contact_form": {
+                    "name": "Your name",
+                    "surname": "Last name",
+                    "email": "Your Email Address",
+                    "phone": "Your Phone Number",
+                    "message": "Your message",
+                    "title": "Send Message",
+                    "description": "Send us your message and we will get back to you as soon as possible."
+                }
+            }
+        },
+        "menu": {
+            "home": "home",
+            "admin_panel": "Admin Panel",
+            "mobile_app": "Mobile App"
+        },
+        "services": {
+            "homeService1": {
+                "head": "Administration Panel",
+                "title": "OCPP Charging Station Connectivity and Management",
+                "description": "Easily connect your OCPP protocol compatible charging stations to our system and manage all your stations from a single center."
+            },
+            "homeService2": {
+                "head": "Mobile Application",
+                "title": "Displaying Charging Stations on a Map",
+                "description": "Users have easy access to charging stations via the map."
+            }
+        },
+        "video":{
+            "title": "Get to Know Us Closer"
+        },
+        "pages": {
+            "mobile": {
+                "title": "Mobile App",
+                "description": "Meet Our Mobile App",
+                "data":{
+                    "item1": {
+                        "title": "Display Charging Stations on the Map",
+                        "description": "Users have easy access to charging stations via map"
+                    },
+                    "item2": {
+                        "title": "Filter Feature",
+                        "description": "Users filter AC or DC charging stations according to their needs. Quickly finds stations with the desired features"
+                    },
+                    "item3": {
+                        "title": "Availability Check",
+                        "description": "By clicking on a station, users browse its current availability. It instantly identifies empty or full stations."
+                    },
+                    "item4": {
+                        "title": "Charge Initialization",
+                        "description": "Once users connect the connector to their vehicle, they can easily start charging via the mobile app."
+                    },
+                    "item5": {
+                        "title": "Payment",
+                        "description": "Users pay quickly and securely through the app, both before and after charging, according to your business's business rules."
+                    },
+                    "item6": {
+                        "title": "Wallet Feature",
+                        "description": "Users can pay to their in-app wallet, making recharging easier."
+                    },
+                    "item7": {
+                        "title": "Charge History",
+                        "description": "Users can view a map of past charging operations in historical order and see the location on the map where the operation took place."
+                    }
+
+                }
+            },
+            "admin": {
+                "title": "Admin Panel",
+                "description": "Meet our Admin Panel",
+                "data": {
+                    "item1": {
+                        "title": "OCPP Charging Station Connectivity and Management",
+                        "description": "Easily connect your OCPP protocol compatible charging stations to our system and manage all your stations from a single center."
+                    },
+                    "item2": {
+                        "title": "Effective Communication and Data Management",
+                        "description": "All incoming and outgoing data from your charging station is stored and processed. Get instant access to the most up-to-date information."
+                    },
+                    "item3": {
+                        "title": "Comprehensive Management",
+                        "description": "You can easily manage everything about your stations through the management panel. Many features such as adding, removing stations, status control are at your fingertips."
+                    },
+                    "item4": {
+                        "title": "Display Station on Map",
+                        "description": "View all your charging stations geographically on the map. Make location-based analysis."
+                    },
+                    "item5":{
+                        "title": "Customer Management",
+                        "description": "View customer information in detail. Track user movements and access the most valuable data for your business"
+                    },
+                    "item6": {
+                        "title": "Grouping and Pricing",
+                        "description": "Organize your charging stations into groups and set group-specific pricing. Easily manage different campaigns and promotions."
+                    },
+                    "item7": {
+                        "title": "Current and Historical Charge Information",
+                        "description": "Track all charging transactions instantly. Access historical data and make detailed analysis with filters such as date, user, price."
+                    }
+                }
+            }
+        } 
     }
 }

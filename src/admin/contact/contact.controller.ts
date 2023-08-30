@@ -1,5 +1,6 @@
-import { Body, Controller, Get, Post, Render, Res } from "@nestjs/common";
+import { Body, Controller, Get, Post, Render, Res, UseGuards } from "@nestjs/common";
 import { ContactService } from "./contact.service";
+import { AuthGuard } from "src/auth/auth.guard";
 
 @Controller('contact')
 export class ContactController {
@@ -26,6 +27,7 @@ export class ContactController {
     }
 
     @Get('list')
+    @UseGuards(AuthGuard)
     @Render('pages/admin/message')
     async get_contact_list_page(){
 
