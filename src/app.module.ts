@@ -10,6 +10,7 @@ import { AuthInterceptors } from './auth/auth.interceptors';
 import { ContactModule } from './admin/contact/contact.module';
 import { LanguageInterceptors } from './services/custom/language.interceptors';
 import { NewsletterModule } from './admin/newsletter/newsletter.module';
+import { ConfigModule } from '@nestjs/config';
 
 @Global()
 @Module({
@@ -29,7 +30,11 @@ import { NewsletterModule } from './admin/newsletter/newsletter.module';
     }),
     UserModule,
     ContactModule,
-    NewsletterModule
+    NewsletterModule,
+    ConfigModule.forRoot({
+      envFilePath:'.env',
+      isGlobal:true
+    })
   ],
   controllers: [AppController],
   providers: [
