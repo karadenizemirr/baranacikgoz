@@ -6,11 +6,11 @@ import { DataSource } from "typeorm";
 
 export const AppDataSource = new DataSource({
     type: "mysql",
-    host: "localhost",
+    host: "clwxydcjair55xn0.chr7pe7iynqr.eu-west-1.rds.amazonaws.com",
     port: 3306,
-    username: "root",
-    password: "123456789",
-    database: "baranacikgoz",
+    username: "ri2pizjx2aedz6n1",
+    password: "cjxfxc0lem8mz4u8",
+    database: "lmf96pbrls52njff",
     synchronize: true,
     logging: true,
     entities: [User, Contact, Newsletter],
